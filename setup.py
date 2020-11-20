@@ -6,8 +6,8 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="pylyric", # Replace with your own username
-    version="0.0.1",
+    name="pylyric", # Replace with your own usernamepy
+    version="0.0.2",
     author="aeg0n",
     author_email="chandu199827@gmail.com",
     description="A package for sentimental analysis of a song",
@@ -21,6 +21,7 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     python_requires='>=3.6',
+    install_requires=['algorithmia'],
     entry_points={
         'console_scripts': [
             'pylyric=src.ex:main',

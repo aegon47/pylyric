@@ -9,8 +9,8 @@ import numpy as np
 def pl_draw():
     #----here------
     #a='Taylor swift'
-    a=input()
-    i=input()
+    a=input("Enter the artist name: ")
+    i=input("Enter the artist's song: ")
 
     def test(a,sng):
         try:
